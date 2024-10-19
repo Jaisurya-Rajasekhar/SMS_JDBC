@@ -7,12 +7,14 @@ Features:
 2. Insert a New Student: Add a new student's details into the database.
 3. Update a Student's Information: Update existing student information such as name, department, or marks.
 4. Delete a Student: Remove a student's record from the database using their roll number.
+
 Technologies Used:
 1. Java: Core programming language.
 2. JDBC (Java Database Connectivity): Used for connecting and interacting with the MySQL database.
 3. MySQL: Backend database to store student records.
 4. PreparedStatement: To avoid SQL injection attacks while handling SQL queries.
 5. Scanner: For user input handling.
+
 How It Works:
 1. The application provides a menu-driven interface that allows users to select various options for managing student data.
 2. Each option corresponds to a database operation (CRUD).
@@ -36,4 +38,4 @@ How to Run the Project:
 
 3. Run the Project:
    
-Compile and run the Main.java file in any Java-supported IDE or command line.
+   Compile and run the Main.java file in any Java-supported IDE or command line.
